@@ -1,0 +1,25 @@
+[project]
+name = "generic-test-automation-framework-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "allure-pytest>=2.13.5",
+    "httpx>=0.28.1",
+    "pydantic>=2.10.5",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.9.2",
+]
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+select = ['ALL']
+ignore = [
+    'D', # docs
+]
+
+[tool.ruff.lint.per-file-ignores]
+"*test*" = ['S101', 'S105', 'PLR2004', 'ANN201', 'ANN001']
