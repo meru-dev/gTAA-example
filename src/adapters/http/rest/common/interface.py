@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Any
 
-from src.adapters.api.http.common.entities import RestHttpResponse
+from src.adapters.http.rest.common.entities import RestHttpResponse
 
 KwargsType: type = dict[str, Any]
 

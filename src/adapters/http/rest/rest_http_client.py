@@ -1,11 +1,11 @@
 from httpx import request
 
-from src.adapters.api.http.common.entities import (
+from src.adapters.http.rest.common.entities import (
     RestHttpRequest,
     RestHttpResponse,
     RestMethods,
 )
-from src.adapters.api.http.common.interface import (
+from src.adapters.http.rest.common.interface import (
     KwargsType,
     RestHttpClientInterface,
 )

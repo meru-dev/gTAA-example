@@ -1,6 +1,6 @@
 import pytest
 
-from src.adapters.api.http.rest_http_client import RestHttpClient
+from src.adapters.http.rest.rest_http_client import RestHttpClient
 from src.generic.clients.api.http.auth.client import AuthApi
 from src.generic.setup.config import config
 from src.generic.steps.auth_steps import AuthSteps
